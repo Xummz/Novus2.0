@@ -1,0 +1,196 @@
+
+/*Custom CSS*/
+
+form label.required:after
+{
+    color: red;
+    content: " *";
+}
+
+.botaoAdicionar {
+	float: right;
+	margin-top: 15px;
+	margin-right: 1%;
+	border-color: #343a40;
+}
+
+.customTitle {
+	padding-top: 55px;
+	padding-bottom: 50px;
+}
+
+.customTitleDiv {
+	border-bottom: solid;
+    border-color: #ddd;
+    border-width: 0.1px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customTable, .customDiv {
+	width: 85%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.customInputForm {
+	width: 50% !important; 
+}
+
+.customMenu {
+	margin-left: 3%;
+	display: inline-block; 
+	background-color: transparent; 
+	width: 5%; 
+	height: 60%; 
+	text-align: center; 
+	border-radius: 100%; 
+	margin-top: auto; 
+	margin-bottom: auto;
+}
+
+.customMenu:hover {
+	background-color: rgba(150,150,150,.2);
+	transition: 0.2s;
+}
+
+.sidenav ul {
+	padding: 0;
+}
+
+.sidenav li {
+	padding-left: 1.5%;
+	padding-right: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: left;
+	list-style-type: none;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #fff;
+	border-left: 3px solid transparent;
+}
+
+.sidenav .firstLi {
+	border-top: solid;
+	border-width: 1px;
+	border-color: #fff;
+	border-left: 3px solid transparent;
+}
+
+.sidenav {
+	position: fixed;
+	background-color: #343a40d6;
+	height: 100%;
+	width: 16.666667%;
+	overflow: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sidenav ul a {
+	text-decoration: none;
+	color: rgba(255,255,255,.5);
+}
+
+.sidenav a:hover li {
+	color: #fff;
+	background-color: rgba(150,150,150,.1);
+	border-color: #fff #fff #fff #0000FF;
+	transition: 0.1s;
+}
+
+.sidenav a:hover .oi {
+	color: #fff;
+	margin-left: 3px;
+	transition: 0.1s;
+}
+
+.sidenav .icon {
+	margin-right: 2.5%;
+	color: #808080;
+}
+
+.oi-menu {
+	color: #808080;
+	cursor:pointer;
+}
+
+@media (max-width: 700px) {
+	.font {
+		font-size: 2.5vw;
+	}
+}
+
+@media (min-width: 700px) {
+	.font {
+		font-size: 2vw;
+	}
+}
+
+@media (min-width: 992px) {
+	.font {
+		font-size: 1.2vw;
+	}
+}
+
+#mySidenav {
+	transition: width 0.5s;
+}
+
+#MainDiv {
+	margin-top: 50px;
+	transition: 0.5s;
+}
+
+.fullWidthMain {
+	width: 100%;			
+}
+
+.topNav {
+	width: 100%;
+	height: 50px;
+	padding-top: 5px;		
+	background-color: #343a40d6;
+	position: fixed;			
+	top: 0;
+	left: 0;
+	display: table;
+	z-index: 1;
+}
+
+.topNav .toggleMenuIcon {
+	margin-top: 17px;
+	margin-left: 1%
+}
+
+.topNav .logoStyle {
+	height: 40px;
+	width: auto;
+	margin-left: 3%;
+}
+
+.leftDiv {
+	width: 40%;
+	height: 100%;
+	padding-left: 0.5%;
+	text-align: left;
+	display: table-cell;
+}
+
+.rightDiv {
+	width: 60%;
+	height: 100%;
+	padding-right: 0.5%;
+	text-align: right;
+	display: table-cell;
+}
+
+.svgIcon {
+	line-height: 1;
+	margin-right: 2.5%;
+	color: #808080;
+	text-align: right;
+	fill: #fff;
+}
